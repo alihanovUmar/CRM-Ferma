@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $body_colors;
+}
+
+li,
+ol {
+  list-style: none;
+}
+
+button {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+// container
+
+.container {
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-right: 24px;
+}
+
+// routes
+
+.routes {
+  width: 100%;
+}
+
+.home {
+  display: flex;
+}

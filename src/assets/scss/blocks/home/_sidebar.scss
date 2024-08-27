@@ -1,0 +1,53 @@
+.sidebar {
+  width: 320px;
+  padding: 13px 24px 0px 24px;
+
+  .sidebar_menu {
+    font-family: $golos_fonts;
+    color: $gray_light;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 32px;
+  }
+
+  .sidebar_lists {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 24px;
+  }
+
+  .sidebar_item a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    &.active {
+      .item_icon,
+      .item_text {
+        color: $blue;
+      }
+    }
+
+    &:hover {
+      .item_icon,
+      .item_text {
+        color: $blue;
+      }
+    }
+
+    .item_icon {
+      font-size: 21px;
+      color: $gray_light;
+      transition: 0.4s linear;
+    }
+    .item_text {
+      color: $gray;
+      font-family: $golos_fonts;
+      font-size: 14px;
+      font-weight: 400;
+      transition: 0.3s linear;
+    }
+  }
+}
