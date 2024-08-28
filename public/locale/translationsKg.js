@@ -19,11 +19,11 @@ const translationsKg = {
 
   // sidebar
   menu: "меню",
-  users: "Колдонуучулар",
-  products: "Буюмдар",
-  customers: "Кардарлар",
-  couriers: "Чабармандар",
-  orders: "буйруктар",
+  Users: "Колдонуучулар",
+  Products: "Буюмдар",
+  Customers: "Кардарлар",
+  Couriers: "Чабармандар",
+  Orders: "буйруктар",
 
   // header
   profile: "Профиль",
@@ -91,6 +91,7 @@ const translationsKg = {
 
   couriersadd: "Курьер кошуу",
   couriersedit: "Курьерди өзгөртүү",
+
 };
 
 export default translationsKg;

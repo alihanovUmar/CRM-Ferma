@@ -1,4 +1,5 @@
 import React from "react";
+import SidebarItem from "./SidebarItem";
 //  icons
 import { RiBuilding2Line } from "react-icons/ri";
 import { IoSettingsOutline } from "react-icons/io5";
@@ -11,7 +12,6 @@ import logo from "../../../assets/images/logo.svg";
 import { Link } from "react-router-dom";
 
 import { useTranslation } from "react-i18next";
-import SidebarItem from "./SidebarItem";
 
 export default function Sidebar() {
   const { t } = useTranslation();
@@ -21,12 +21,12 @@ export default function Sidebar() {
       <Link to="/user">
         <img src={logo} alt="Logo site" />
       </Link>
-      <p className="sidebar_menu">Menu</p>
+      <p className="sidebar_menu">{t("menu")}</p>
 
       <ul className="sidebar_lists">
         <SidebarItem link="/user" Icon={RiBuilding2Line} text={t("Users")} />
         <SidebarItem
-          link="/products"
+          link="./products"
           Icon={IoSettingsOutline}
           text={t("Products")}
         />
