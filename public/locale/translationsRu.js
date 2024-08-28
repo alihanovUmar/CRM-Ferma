@@ -19,7 +19,7 @@ const translationsRu = {
   
     // sidebar
     menu: "меню",
-    users: "Пользователи",
+    Users: "Пользователи",
     Products: "Продукты",
     Customers: "Клиенты",
     Couriers: "Курьеры",
