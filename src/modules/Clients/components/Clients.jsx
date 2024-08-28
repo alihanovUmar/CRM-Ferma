@@ -1,7 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Header from '../../../components/Header';
+import { useTranslation } from "react-i18next";
 
-export const Clients = () => {
+export default function Clients() {
+  const { t } = useTranslation();
+
   return (
-    <div>Clients</div>
+    <>
+      <Header title={t("Customers")} />
+
+    </>
   )
 }
